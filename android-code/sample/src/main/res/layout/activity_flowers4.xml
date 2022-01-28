@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".Flowers4Activity">
+
+    <TextView
+        android:id="@+id/text_type3"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:text="球型"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+
+            android:id="@+id/imageView3"
+            android:layout_width="151dp"
+            android:layout_height="176dp"
+            app:srcCompat="@mipmap/type3"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+
+        <TextView
+            android:id="@+id/text_Intro3"
+            android:layout_width="207dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:text="         包含叠球型、匙球型和管球型。其中叠球型属于平瓣类，匙球型属于匙瓣类，管球型属于管瓣类。
+            三类球型菊花都呈球型，瓣形有所不同。"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tip"
+        android:layout_marginTop="10dp"
+        android:text="辨别窍门："
+        android:textSize="20sp"
+        android:textColor="@color/theme_green_dark"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_tip3"
+            android:layout_width="354dp"
+            android:layout_height="180dp"
+            android:text="         叠球型：舌状花重轮，各瓣长短整齐，排列紧密；外轮间或有少数匙瓣甚至管瓣花。绝大多数花瓣内曲，可能作正抱、追抱、乱抱等不同形式的向心合抱；各瓣重叠，整个花型呈球形。
+            管球型：舌状花重轮，中径管瓣，稍短，弯曲不整，各瓣向心紧密追抱或乱抱，或整齐合抱，全形呈球状，筒状花稀少或缺如，不外露。
+            匙球型：舌状花重轮，多中匙和短匙瓣，内轮间或有平瓣，外轮间或有管瓣。各瓣匙片内曲，排列整齐，紧密合抱使全花呈球型，亦有外轮长匙瓣或管瓣飘散下垂。简状花稀少或不发达，盛开时少有外露。"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+
+</LinearLayout>

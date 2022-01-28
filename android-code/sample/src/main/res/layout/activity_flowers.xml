@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".FlowersActivity">
+
+    <TextView
+        android:id="@+id/text_type0"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:text="翻卷型"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+
+            android:id="@+id/imageView0"
+            android:layout_width="151dp"
+            android:layout_height="176dp"
+            app:srcCompat="@mipmap/type0"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+
+        <TextView
+            android:id="@+id/text_Intro0"
+            android:layout_width="207dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:text="     属于平瓣类菊花，平瓣类菊花盛开时花瓣全部展开，仅基部结合成管状，且管状部分小于平展部分1/3以下。
+          分为宽带型、荷花型等。翻卷型为其中一种，如：红宝石等。"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_tip"
+        android:layout_marginTop="10dp"
+        android:text="辨别窍门："
+        android:textSize="20sp"
+        android:textColor="@color/theme_green_dark"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_tip0"
+            android:layout_width="354dp"
+            android:layout_height="180dp"
+            android:text="         舌状花多轮，外轮花瓣向下反抱，且花瓣背面向内翻卷，内轮花瓣向心合抱或乱抱。整个花形外观为外翻内卷。内轮花瓣随花开程度逐渐外翻。筒状花稀少，盛开时不露或微露。"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".Flowers5Activity">
+
+    <TextView
+        android:id="@+id/text_type4"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:text="蜂窝型"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+
+            android:id="@+id/imageView4"
+            android:layout_width="151dp"
+            android:layout_height="176dp"
+            app:srcCompat="@mipmap/type4"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+
+        <TextView
+            android:id="@+id/text_Intro4"
+            android:layout_width="207dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:text="         属于匙瓣类菊花。匙瓣类菊花盛开时花瓣基部结合成管，上部开裂成匙状，管状部分为平展部分的1/3～2/3。包含匙荷型、雀舌型、蜂窝型等。"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tip"
+        android:layout_marginTop="10dp"
+        android:text="辨别窍门："
+        android:textSize="20sp"
+        android:textColor="@color/theme_green_dark"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_tip4"
+            android:layout_width="354dp"
+            android:layout_height="180dp"
+            android:text="         舌状花多轮，短匙瓣，全花呈球形。瓣短小，近直伸，排列整齐，露出瓣口如铃口状。全形如蜂窝。
+            主要品种有奉献、山城之光、乒乓菊、蜂窝菊、水晶球、红虎球等"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".Flowers3Activity">
+
+    <TextView
+        android:id="@+id/text_type2"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:text="飞舞型"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+            android:layout_width="151dp"
+            android:layout_height="176dp"
+            app:srcCompat="@mipmap/type2"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+
+        <TextView
+            android:id="@+id/text_Intro2"
+            android:layout_width="207dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:text="         属于管瓣类菊花，盛开时花瓣为管状，管端开裂或闭合。开裂部分少于花瓣总长的1/3。　
+         分为单管型、松针型等。飞舞型为其中一种，如：乾坤带等。"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tip"
+        android:layout_marginTop="10dp"
+        android:text="辨别窍门："
+        android:textSize="20sp"
+        android:textColor="@color/theme_green_dark"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_tip2"
+            android:layout_width="354dp"
+            android:layout_height="180dp"
+            android:text="         舌状花多轮乃至重轮，多为较粗径的管瓣花。有的为中径管瓣，也有的品种在中轮或内轮具长匙瓣。各瓣卷展无定。参差不齐，全花姿态婆娑潇洒。
+           筒状花不发达，盛开时微露或不外露。该型有两个亚型，粗径长管下部直伸，端部弯大钩，且常在钩基具喙，全瓣似鹰爪伸张，刚劲有力，此等种类称鹰爪亚型。
+          外轮管瓣，曲卷散出或下垂，内轮管瓣向心抱，全形有似蝴蝶飞舞之种类称舞蝶亚型。"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".Flowers2Activity">
+
+    <TextView
+        android:id="@+id/text_type1"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textSize="30sp"
+        android:text="雏菊型"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+
+            android:id="@+id/imageView1"
+            android:layout_width="151dp"
+            android:layout_height="176dp"
+            app:srcCompat="@mipmap/type1"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+
+        <TextView
+            android:id="@+id/text_Intro1"
+            android:layout_width="207dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:text="         雏菊，又名马头兰花、延命菊，春菊、太阳菊等。
+         菊科雏菊属植物的一种，多年生草本植物，高10厘米左右。
+         原产于欧洲。原种被视为丛生的杂草，开花期在春季。"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tip"
+        android:layout_marginTop="10dp"
+        android:text="辨别窍门："
+        android:textSize="20sp"
+        android:textColor="@color/theme_green_dark"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_tip1"
+            android:layout_width="354dp"
+            android:layout_height="180dp"
+            android:text="         多年生或一年生葶状草本，高10厘米左右。叶基生，草质，匙形，顶端圆钝，基部渐狭成柄，上半部边缘有疏钝齿或波状齿。头状花序单生，直径2.5-3.5厘米，花葶被毛；总苞半球形或宽钟形；总苞片近2层，稍不等长，长椭圆形，顶端钝，外面被柔毛。舌状花一层，雌性，舌片白色带粉红色，开展，全缘或有2-3齿，中央有多数两性花，都结果实，筒状，檐部长，有4-5裂片。"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+
+</LinearLayout>
